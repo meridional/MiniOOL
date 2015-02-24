@@ -42,7 +42,6 @@
 %left Or
 %left And
 %left Dot
-%left Else
 %left Par
 %left Semicolon
 
