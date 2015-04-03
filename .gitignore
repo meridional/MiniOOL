@@ -1,1 +1,13 @@
 *.swp
+miniool
+miniool.cmi
+miniool.cmo
+minioolEval.cmi
+minioolEval.cmo
+minioolLEX.cmi
+minioolLEX.cmo
+minioolLEX.ml
+minioolYACC.cmi
+minioolYACC.cmo
+minioolYACC.ml
+minioolYACC.mli
