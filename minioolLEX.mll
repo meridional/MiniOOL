@@ -14,6 +14,7 @@ rule token = parse
   | "|||" { Par }
   | "skip" { Skip }
   | "malloc" { Malloc }
+  | "print" { Print }
   | "null" { Null }
   | "var" { Var }
   | "proc" { Proc }
