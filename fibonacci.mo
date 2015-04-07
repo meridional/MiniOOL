@@ -21,15 +21,15 @@ var add; {
     mult.b = 1 - 1;
     mult.tmp = 1 - 1;
     mult.f = proc y: {
-      add.a = y;
-      mult.b = 1 - 1;
-      mult.tmp = mult.a;
-      while 1 - 1 < mult.tmp {
-        add.a = y;
-        add.f(mult.b);
+      if y == 1 - 1 {
+        mult.b = 1 - 1;
+      }
+      else {
+        mult.f(y - 1);
+        add.a = mult.b;
+        add.f(mult.a);
         mult.b = add.b;
-        mult.tmp = mult.tmp - 1;
-      };
+      }
     };
     var fib; {
       malloc(fib);
@@ -54,7 +54,7 @@ var add; {
         mult.a = limit;
         mult.f(limit);
         limit = mult.b;
-        
+
         var i; {
           i = 1;
           print(fib.a);
