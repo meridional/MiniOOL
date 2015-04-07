@@ -6,15 +6,14 @@
 %token<string> Ident
 %token Dot
 
-%token Minus
+%token Minus 
 %token One
 
 %token Proc
 %token Colon
 
 %token True False
-%token And Or
-%token Equal Less LessEq Greater GreaterEq
+%token Equal Less 
 
 
 %token Null

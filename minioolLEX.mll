@@ -20,13 +20,8 @@ rule token = parse
   | "proc" { Proc }
   | "true" { True }
   | "false" { False }
-  | "&&" { And }
-  | "||" { Or }
   | "==" { Equal }
   | "<" { Less }
-  | "<=" { LessEq }
-  | ">" { Greater }
-  | ">=" { GreaterEq }
   | '-' { Minus }
   | '1' { One }
   | '.' { Dot }
